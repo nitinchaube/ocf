@@ -1,0 +1,226 @@
+
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+.overflow{
+  overflow: hidden;
+
+}
+.cardPosition{
+  position: absolute;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat-Bold";
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* Headings */
+
+.big-heading {
+  font-family: "Abril Fatface";
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Containers */
+
+.container-fluid{
+  padding: 7% 15%;
+}
+
+/* Sections */
+
+.colored-section {
+  background-color: #2BDEDD;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Abril Fatface";
+  font-size: 2.5rem;
+  font-weight: bold;
+  color:#03083A;
+}
+
+.nav-item {
+  padding: 0 10px;
+  color:#03083A;
+
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Abril Fatface";
+}
+
+/* Buttons */
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Section */
+
+#title {
+  background-color: #2BDEDD;
+  color: #fff;
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* Title Image */
+
+.title-image {
+  width: 90%;
+  /*transform: rotate(25deg);*/
+  position: absolute;
+  right: 00%;
+}
+
+/* Features Section */
+
+#features {
+  position: relative;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+.feature-box {
+  padding: 4.5%;
+}
+
+.icon {
+  color: #2BDEDD;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #2BDEDD;
+}
+
+/* Testimonial Section */
+
+#testimonials {
+  background-color: #2BDEDD;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+
+#press {
+  background-color: #2BDEDD;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+
+#pricing {
+  padding: 100px;
+}
+
+.planHeading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/* CTA Section */
+
+
+/* Footer Section */
+
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+@media (max-width: 1028px) {
+
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+
+
+
+}
+.element {
+  animation: pulse 3s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    color: rgb(208, 209, 211);
+    font-size: larger;
+  }
+  100% {
+    color: #2BDEDD;
+    font-size: xx-large;
+  }
+}
+
+.element1{
+  animation:pulse1 3s infinite;
+}
+
+
+@keyframes pulse1 {
+  0% {
+    color: #2BDEDD;
+    
+    font-size: larger;
+  }
+  100% {
+    color:#ffffff;
+   
+    font-size: xx-large;
+  }
+}
+
+
